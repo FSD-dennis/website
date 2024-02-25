@@ -38,7 +38,7 @@ main {
     overflow: hidden;
 }
 .hero {
-  background-image: url("images/csail\ in\ snow.jpg");
+  background-image: url("images/csail.jpg");
   background-position: center;
   opacity: 0.8;
   background-size: cover;
