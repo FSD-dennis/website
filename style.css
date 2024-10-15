@@ -142,8 +142,8 @@ main {
 /*}*/
 #contact img {
     float: left;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     margin: 10px;
     -webkit-transition: transform 0.2s ease; /* Chrome, Safari, Opera */
     transition: transform 0.2s ease;
@@ -297,3 +297,146 @@ footer {
     width: 100%;
     height: 100%; 
 }*/
+
+.project {
+    background-color:bisque;
+    color: #333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+#sate {
+    background-color: bisque; /* Fallback color */
+    color: #ff0000b4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    background-image: url('images/sate1.jpg'); /* Custom background image */
+    background-size: cover; /* Make background image cover entire element */
+    background-position: center; /* Center the background image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Hover effect to change background image */
+#sate:hover {
+    background-image: url('images/sate2.jpeg'); /* Change to a different image on hover */
+}
+
+#unet {
+    background-color: bisque; /* Fallback color */
+    color: #242222b4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    background-image: url('images/unet.png'); /* Custom background image */
+    background-size: cover; /* Make background image cover entire element */
+    background-position: center; /* Center the background image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+#translate {
+    background-color: bisque; /* Fallback color */
+    color: #ff0000b4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    background-image: url('images/translate.png'); /* Custom background image */
+    background-size: cover; /* Make background image cover entire element */
+    background-position: center; /* Center the background image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+#algo {
+    background-color: bisque; /* Fallback color */
+    color: #ff1212b4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    background-image: url('images/algo.jpeg'); /* Custom background image */
+    background-size: cover; /* Make background image cover entire element */
+    background-position: center; /* Center the background image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+
+#algo:hover {
+    background-image: url('images/algo1.jpeg'); /* Change to a different image on hover */
+}
+
+
+
+.project h2 {
+    color: #444;
+    font-size: 1.5em;
+}
+
+.project p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+#code h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;              /* Make the font larger */
+    color: #333;                 /* Dark gray text color */
+    text-align: center;          /* Center the text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds a soft shadow effect */
+    letter-spacing: 2px;         /* Increase space between letters */
+    background: linear-gradient(to right, #e45fff, #feb47b); /* Adds a gradient background */
+    -webkit-background-clip: text; /* Clips background to text */
+    -webkit-text-fill-color: transparent; /* Makes text transparent to show gradient */
+    margin-bottom: 40px;         /* Adds space below the heading */
+    padding: 20px 0;             /* Adds vertical padding */
+}
+
+
+#skills {
+    margin: 40px;
+    width: 100%;
+    height: 400px;
+}
+
+.table-container {
+    display:inline-flex;          /* Use Flexbox for layout */
+    justify-content: space-between; /* Space tables evenly */
+}
+
+.table-box {
+    flex: 1;               /* Allow each table to grow equally */
+    margin: 0 10px;       /* Add horizontal spacing */
+    padding: 10px;        /* Add padding inside each box */
+    border: 1px solid #ccc; /* Add a border around each box */
+    border-radius: 5px;   /* Rounded corners */
+}
+
+table {
+    width: 100%;          /* Make tables full width of the box */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+}
+
+th, td {
+    padding: 8px;         /* Add padding inside table cells */
+    text-align: left;     /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Add a bottom border to cells */
+}
+
+h2 {
+    text-align: center;    /* Center the section titles */
+}
